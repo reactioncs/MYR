@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-float</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .big {
+            width: 900px;
+            margin: 15px auto;
+        }
+
+        .big a {
+            width: 300px;
+            height: 300px;
+            float: left;
+            color: black;
+            text-decoration: none;
+            font: 30px/300px Arial;
+            text-align: center;
+        }
+
+        .big a:hover {
+            background-color: orange;
+            font-size: 40px;
+        }
+
+        .colour1 {
+            background-color: palevioletred;
+        }
+
+        .colour2 {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big">
+        <a href="#" class="colour1">P1</a>
+        <a href="#" class="colour2">P2</a>
+        <a href="#" class="colour1">P3</a>
+        <a href="#" class="colour2">P4</a>
+        <a href="#" class="colour1">P5</a>
+        <a href="index.html" class="colour2">Return to Index</a>
+    </div>
+</body>
+
+</html>

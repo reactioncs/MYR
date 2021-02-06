@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+h1 {
+    color: #00a4ff;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.search {
+    width: 420px;
+    height: 44px;
+    margin: 15px auto;
+}
+
+.search input {
+    float: left;
+    width: 320px;
+    height: 40px;
+    border: 2px solid #00a4ff;
+    border-right: 0;
+    color: black;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 83px;
+    height: 44px;
+    background-color: #00a4ff;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.search button:hover {
+    background-color: orange;
+}

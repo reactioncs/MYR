@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S04-sidebar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d9d9d9;
+        }
+
+        .box {
+            width: 1200px;
+            overflow: hidden;
+            /* height: 580px; */
+            margin: 0 auto;
+            background-image: url(img/Mount_Everest.jpg);
+            background-size: 1300px;
+            background-position: center top;
+        }
+
+        .sidebar {
+            font: 16px/40px Arial;
+            float: left;
+        }
+
+        .sidepic {
+            font: italic 60px Times;
+            color: white;
+            margin: 40px 0 0 80px;
+            float: left;
+        }
+
+        a {
+            display: block;
+            width: 200px;
+            height: 40px;
+            background-color: rgba(10, 10, 10, 0.5);
+            text-decoration: none;
+            color: white;
+            padding-left: 20px;
+        }
+
+        a:hover {
+            background-color: lightgreen;
+            color: black;
+        }
+
+        .rest {
+            background-color: rgba(10, 10, 10, 0.5);
+            width: 220px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="sidebar">
+            <a href="#">Alice</a>
+            <a href="#">Bob</a>
+            <a href="#">Climate</a>
+            <a href="#">Dave</a>
+            <a href="#">Early</a>
+            <a href="#">Fireman</a>
+            <a href="#">Germ</a>
+            <div class="rest"></div>
+            <a href="index.html">Rentun to Index</a>
+        </div>
+        <div class="sidepic">Mount Everest</div>
+    </div>
+</body>
+
+</html>
